@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo app!</title>
+  </head>
+  <body>
+    <div id="app" class="shadow-lg p-3 mb-5 bg-white rounded">
+      <header>
+        <h1><i class="bi bi-list-task"></i> todo app!</h1>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Adicionar tarefa" aria-label="adicionar tarefas" aria-describedby="basic-addon1">
+          <button class="btn btn-success"><i class="bi bi-plus-circle" id="basic-addon1"></i></button>
+        </div>
+      </header>
+      <hr>
+      <main>
+        <div>
+          <ul class="tarefas list-group"></ul>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
